@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fuzzy+Bubbles:wght@700&family=Nanum+Gothic:wght@800&display=swap');
+
+body {
+    background-color: #000;
+}
+
+.title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color :white;
+    font-family: 'Creepster', cursive;
+    margin: 50px;
+    padding: 50px;
+    margin-top: 0px;
+    /* font-size: larger; */
+}
+
+  h2 {
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .8s;
+  }
+  
+  h2.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  div {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: inline-block;
+  }
+/*   
+  .image1 {
+    margin: 0px;
+    padding: auto;
+    color: #fff;
+  } */
+  
+  .image2 {
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: none;
+  }
+
+  h1{
+    color: white;
+  }
+  
+  /* .image3 {
+      background: url(
+  https://cdn.pixabay.com/photo/2022/08/30/15/33/nature-7421337_960_720.jpg) no-repeat;
+    background-attachment: fixed;
+  } */
+
+  .rounded-circle {
+    border-radius: 60%;
+    width: 500px;
+    height: 500px;
+  }
+
+  /* game start button */
+  
+  .last_btn {
+    position: absolute;
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    border: none; 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .last_btn:before {
+    height: 0%;
+    width: 2px;
+  }
+  .last_btn:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
+  .aa{
+    text-decoration: none;
+    color: white;
+  }
+   /* ----------- */
+  
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(#240b36, #E14D2A, #E44D26);
+    font-size: .9rem;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes jittery {
+    5%, 50% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    15% {
+      transform: scale(1.15);
+    }
+    20% {
+      transform: scale(1.15) rotate(-5deg);
+    }
+    25% {
+      transform: scale(1.15) rotate(5deg);
+    }
+    30% {
+      transform: scale(1.15) rotate(-3deg);
+    }
+    35% {
+      transform: scale(1.15) rotate(2deg);
+    }
+    40% {
+      transform: scale(1.15) rotate(0);
+    }
+  }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.last {
+  /* width: 300px; */
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .last_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+.abc {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
